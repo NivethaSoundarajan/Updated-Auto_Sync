@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.main-panel{
+    background-color: whitesmoke !important;
+}
+
+.container{
+    height: 650px;
+    background: white;
+    margin-left: 13px;
+    margin-top: 68px;
+    width: 98% !important;
+    box-shadow: 0 11px 10px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 8px rgba(0, 0, 0, 0.19);
+}

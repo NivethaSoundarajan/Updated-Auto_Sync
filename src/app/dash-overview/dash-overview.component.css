@@ -1,0 +1,14 @@
+table {
+    width: 100%;
+  }
+
+  .example-label{
+    margin-top: 100px;
+    padding-left: 50px;
+  }
+
+   .mat-header-row{
+    background-color: #0d7bb9;
+    font-color: white;
+  }
+  

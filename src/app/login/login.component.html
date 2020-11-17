@@ -1,0 +1,27 @@
+
+<div class="bg-img">
+    <div class="col-md-4 login-form-2 pull-right">
+        <h3>Login </h3>
+        <form>
+            <div class="email">
+                <mat-form-field appearance="fill">
+                  <mat-label>Email</mat-label>
+                  <input matInput  placeholder="user@login.com" [formControl]="email" required>
+                  <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                </mat-form-field>
+              </div>
+              <div class="password">
+                <mat-form-field appearance="fill">
+                  <mat-label>Password</mat-label>
+                  <input matInput placeholder="**********" [formControl]="password" required>
+                  <mat-error *ngIf="password.invalid">{{getErrorMessage()}}</mat-error>
+                </mat-form-field>
+              </div>
+              <div class="form-group d-flex justify-content-center">
+                <input type="submit" class="btnSubmit" value="Login" routerLink="/dashboard" />
+            </div> 
+        </form> 
+    </div> 
+</div>
+   
+   

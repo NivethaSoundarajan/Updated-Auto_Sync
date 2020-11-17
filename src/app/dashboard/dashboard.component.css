@@ -1,0 +1,9 @@
+.card-body{
+    background-color: #0e7bb9;
+     color: white;
+     padding-top: 50px;
+}
+.chart{
+    width: 50%;
+    height: 50%
+}
